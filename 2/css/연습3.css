@@ -1,0 +1,14 @@
+
+div {
+    font-size: 50px;
+    font-weight:bold;
+}
+
+
+
+
+/*친 자식 선택자*/
+/*많거나 정확할 수록 우선순위가 높음*/
+header > section > article > div {
+    color: red;
+}

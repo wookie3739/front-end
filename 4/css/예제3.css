@@ -1,0 +1,85 @@
+.orange, .orange1{
+    height:1000px;
+    background-color: orange;
+    position:relative;
+
+}
+
+.blue{
+    height:1000px;
+    background-color: blue;
+    position:relative;
+}
+
+.orange .box1{
+    width:300px;
+    height:300px;
+    top:100%;
+    left:50%;
+    margin-left:-150px;
+    margin-top:-150px;
+    position:absolute;
+    background-color: red;
+    z-index:999;
+}
+
+.orange .box2{
+    width:100px;
+    height:100px;
+    position:absolute;
+    background-color: black;
+    right:0;
+    bottom: 0;
+}
+
+.blue .box3{
+    width:450px;
+    height:300px;
+    position:absolute;
+    background-color: purple;
+    left:50%;
+    top:50%;
+    margin-left:-225px;
+    margin-top:-150px;
+}
+
+.box3 .box4{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:0;
+    right:0;
+    background-color: black;
+}
+
+.box3 .box5{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background-color: black;
+}
+
+.orange1 .box6{
+    width:550px;
+    height:440px;
+    position:absolute;
+    left:50%;
+    top:0;
+    margin-left:-275px;
+    margin-top:-220px;
+    background-color: deeppink;
+
+
+}
+.orange1 .box6 .box7 {
+    width:200px;
+    height:200px;
+    position: absolute;
+    background-color: black;
+    top:50%;
+    left:50%;
+    margin-left:-100px;
+    margin-top:-100px;
+}

@@ -1,0 +1,144 @@
+
+/* 폰트어썸링크 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+/* 구글폰트링크 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+
+body {
+    font-family: "Noto Sans KR", sans-serif, fantasy, "Script MT Bold";
+    font-weight: 300;
+}
+
+/*img {*/
+/*    display: block;*/
+/*}*/
+
+
+#container {
+    position: relative;
+    width: 1200px;
+    /* margin: 0 auto */
+    /* 조건 : width 필수, 기존 블럭요소만 사용가능  */
+    margin: 0 auto;
+}
+.classHeader h2 {
+    font-size: 32px;
+    line-height: 1.5em;
+    height:3em;
+    background: orange;
+}
+.classHeader p {
+    margin-top: 15px;
+}
+
+.cardContents {
+    display: flow-root;
+    margin-top: 30px;
+    /*height: 600px;*/
+    /*border: 3px solid dodgerblue;*/
+    /*box-sizing: border-box;*/
+}
+.cardItem {
+    width: 290px;
+    float: left;
+    margin-right: calc(40px / 3);
+}
+.cardItem:nth-child(4) {
+    margin-right: 0;
+}
+
+.cardItem .image {
+    font-size: 0;
+}
+.cardItem .image img {
+    width: 100%;
+}
+
+.cardItem .contents .title {
+    font-size: 16px;
+    font-weight: 700;
+    /* 서체를 기준으로 높이설정 */
+    /* 행간 * 줄수 */
+    line-height: 1.5em;
+    height: 3em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.cardItem .contents .category {
+    font-weight: 700;
+    color: #0084ff;
+    margin-top: 10px;
+}
+
+.cardItem .contents .rating {
+    display: flow-root;
+    margin-top: 5px;
+}
+.cardItem .contents .rating > div {
+    float: left;
+}
+.cardItem .contents .rating .icons {
+    font-size: 0;
+}
+.cardItem .contents .rating .icons .fa-star {
+    font-size: 16px;
+    line-height: 1.2;
+    color: gold;
+}
+.cardItem .contents .rating .reviewCnt {
+    line-height: 1.2;
+    margin-left: 6px;
+}
+
+.cardItem .contents .price {
+    font-weight: 700;
+    color: royalblue;
+    margin-top: 5px;
+}
+
+.cardItem .contents .tags {
+    display: flow-root;
+    margin-top: 8px;
+}
+.cardItem .contents .tags div {
+    float: left;
+    font-size: 14px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.cardItem .contents .tags .best {
+    background: #f6d5ea;
+}
+.cardItem .contents .tags .only {
+    background: #d1ebe0;
+}
+.cardItem .contents .tags .disCnt {
+    background: #d1ebe0;
+}
+.cardItem .contents .tags div:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+*{
+    text-decoration:none;
+    color:white;
+    font-family: 'Sunflower', sans-serif;
+}
+section{
+    position:relative;
+    height:100vh;
+    background: #1c8fd1;
+}
+main{
+    position:absolute;
+    top:50%;
+    left:20px;
+    transform:translate(0, -50%);
+    /*background: red;*/
+}
+.box{
+    font-size:50px;
+}
+
+main:hover div a{
+    transition:1s;
+    opacity: 0.3;
+}
+
+main .box:hover a{
+    opacity:1;
+}
+.reveal{
+    opacity:0;
+}
+.box:hover .reveal{
+    opacity:1;
+}
+
+/* 가상 선택자를 만들 때 사용 현재 위치에서 앞으로 들어감*/
+/*section .box a:before{*/
+/*    content:">";*/
+    /*i class를 쓰지 않고도 아이콘을 만들 수 있다.*/
+    /*content:"\f2b9"*/
+    /*font-family:'fontawesome', sans-serif;*/
+
+/*}*/
+/*section .box a:after{*/
+/*    content:"<";*/
+/*}*/

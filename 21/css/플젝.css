@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+#wrap{
+    width:1200px;
+    height:100vh;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#wrap div{
+    width:280px;
+    /*float:left;*/
+}
+
+.box1 div img{
+    width:280px;
+    /*height:500px;*/
+    /*float:left;*/
+    margin-right:20px;
+}
+.text img{
+    width:100%;
+    object-fit:cover;
+    /*이미지의 여백을 0으로 만들어줌*/
+    font-size:0;
+}
+.text h2{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    /*서체를 기준으로 높이를 임의로 지정할 때*/
+    /*font-size:20px;*/
+    /*line-height:1.5em;*/
+    /*height:3em;*/
+    font-size:20px;
+    line-height:1.5em;
+    height:3em;
+    margin-bottom:10px;
+}
+
+.box1 div p{
+    color:dodgerblue;
+    font-weight:bold;
+    font-size:20px;
+}
+.stars i{
+    font-size:20px;
+    color:yellow;
+    float:left;
+}
+.bod{
+    margin-top:10px;
+}
+.best{
+    padding:5px;
+    background: #fae2e6;
+    border-radius:10px;
+}
+.only {
+    padding:5px;
+    background: #c8f8c8;
+    border-radius:10px;
+}
+.discount{
+    padding:5px;
+    background: #d8eff6;
+    border-radius:10px;
+}

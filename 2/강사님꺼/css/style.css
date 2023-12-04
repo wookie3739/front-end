@@ -1,0 +1,80 @@
+
+/* ex1) 각기 다른 태그를 사용한다.  */
+/*div {*/
+/*    color: blue;*/
+/*    font-size: 50px;*/
+/*}*/
+/*header {*/
+/*    color: red;*/
+/*    font-size: 50px;*/
+/*}*/
+/*section {*/
+/*    color: orange;*/
+/*    font-size: 50px;*/
+/*}*/
+/*main {*/
+/*    color: purple;*/
+/*    font-size: 50px;*/
+/*}*/
+/*footer {*/
+/*    color: aqua;*/
+/*    font-size: 50px;*/
+/*}*/
+
+
+/* ex2) */
+
+/*div {*/
+/*    font-size: 50px;*/
+/*}*/
+/*.d1 {*/
+/*    color: red;*/
+/*}*/
+/*.d2 {*/
+/*    color: orange;*/
+/*}*/
+/*.d3 {*/
+/*    color: blue;*/
+/*}*/
+/*.d4 {*/
+/*    color: purple;*/
+/*}*/
+/*.d5 {*/
+/*    color: aqua;*/
+/*}*/
+
+
+
+/* ex3) */
+
+
+/* 태그 선택자 */
+/*div {*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*!* 클래스 선택자 *!*/
+/*.hiText {*/
+/*    font-size: 40px;*/
+/*}*/
+
+/*!* 아이디 선택자 *!*/
+/*#thirdText {*/
+/*    font-size: 50px;*/
+/*}*/
+
+/*.test {*/
+/*    font-size: 100px;*/
+/*}*/
+
+.red {
+    color: red;
+    font-size: 30px;
+}
+
+#purple {
+    color: purple;
+}
+
+
+

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans+KR:wght@500&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    height: 100vh;
+    background: orange;
+    position: relative;
+}
+
+.videoFrame {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.videoFrame video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.gradientBg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(200deg, crimson, transparent);
+}
+.contents {
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: 50px;
+    bottom: 50px;
+}
+
+/* 좌측 상단 로고 */
+.contents .videoLogo a img {
+    width: 100px;
+}
+
+/* 좌측 하단 컨텐츠*/
+.contents .textContents {
+    width: 600px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.contents .textContents h2 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: white;
+}
+.contents .textContents h2 strong {
+    color: crimson;
+}
+
+.contents .textContents .description {
+    margin-top: 30px;
+}
+.contents .textContents .description p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+}
+
+.contents .textContents .btnWrap {
+    display: flow-root;
+    margin-top: 20px;
+}
+.contents .textContents .btnWrap div {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+    float: left;
+    background: white;
+}
+.contents .textContents .btnWrap .book {
+    margin-right: 10px;
+    background: transparent;
+}
+.contents .textContents .btnWrap div a {
+    font-size: 14px;
+    color: black;
+}
+.contents .textContents .btnWrap .book a {
+    color: white;
+}
+.contents .textContents .btnWrap div:hover {
+    background: black;
+    border: 2px solid transparent;
+}
+.contents .textContents .btnWrap div:hover a {
+    color: #fff;
+}
+
+
+
+/* 우측 하단 컨텐츠 */
+.contents .sideContents {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+.contents .sideContents .cate {
+    font-size: 30px;
+    text-align: center;
+}
+.contents .sideContents .number {
+    font-family: "Monoton", sans-serif;
+    font-size: 120px;
+    line-height: 1.2;
+}
+
+
+/* 우측 상단 메뉴 */
+.contents .popupMenuBtn {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.contents .popupMenuBtn div {
+    width: 100%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    left: 0;
+}
+.contents .popupMenuBtn .line1 {
+    top: 0;
+}
+.contents .popupMenuBtn .line2 {
+    top: 50%;
+}
+.contents .popupMenuBtn .line3 {
+    top: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

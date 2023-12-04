@@ -1,0 +1,43 @@
+body{
+    height:100vh;
+    margin:0 auto;
+    text-align: center;
+}
+
+main{
+    width:1000px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+}
+main div{
+    margin:20px;
+}
+main img{
+    width:100px;
+    height:100px;
+}
+main .btn{
+    display:flex;
+    align-items: center;
+}
+main .btn div{
+    border:1px solid black;
+    padding:20px;
+    margin:0;
+}
+
+p{
+    text-align: left;
+    font-size:20px;
+    font-weight:bold;
+}
+.costs{
+    display:flex;
+    border:2px solid black;
+    padding:30px;
+}
+.costs li{
+    margin-right:30px;
+}

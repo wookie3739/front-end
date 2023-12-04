@@ -1,0 +1,17 @@
+ul a {
+    color:aqua;
+    font-weight:bold;
+}
+
+.green {
+    background-color: green;
+    color:yellow;
+}
+
+.sub li {
+    background-color:purple;
+}
+
+.black a {
+    background-color:black;
+}

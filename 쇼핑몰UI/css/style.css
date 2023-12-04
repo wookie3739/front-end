@@ -1,0 +1,164 @@
+/* FontAwesome CDN 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Google Web Font : Montserrat */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat",sans-serif;
+    background: #eee;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.item{
+    width:320px;
+    border-radius: 7px;
+    overflow:hidden;
+    position:relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.item:hover .cardContents{
+    bottom:0;
+    transition:0.5s;
+}
+.item:hover .cardImg img{
+    /*이미지를 뿌얘지게 만듦.*/
+    filter:blur(2px);
+}
+.cardImg{}
+.cardImg img{
+    display:block;
+    width:100%;
+    transition:0.5s;
+}
+.cardContents{
+    background: #f8f8f8;
+    position:absolute;
+    left:0;
+    bottom:-175px;
+    width:100%;
+    height:250px;
+    box-sizing: border-box;
+    padding:5px 20px;
+}
+.cardContents .title{
+    border-bottom:1px solid #ddd;
+    overflow:hidden;
+    /*background: red;*/
+    display:flow-root;
+    margin-bottom:15px;
+    padding:14px 0;
+}
+.cardContents .title h2{
+    color:#888;
+    line-height:1.2;
+    float:left;
+    font-size:16px;
+}
+.cardContents .title h2 strong{
+    display:block;
+    font-size:20px;
+}
+.cardContents .title .price{
+    float:right;
+    font-size:20px;
+    color:red;
+}
+
+.cardContents .option{
+    /*background: red;*/
+    position:relative;
+}
+.cardContents .option .size{
+    margin-bottom:10px;
+}
+.cardContents .option .size p{
+    margin-bottom:8px;
+}
+.cardContents .option .size .optionItems{
+    font-size:0;
+}
+.cardContents .option .size .optionItems li{
+    display:inline-block;
+    font-size:12px;
+    margin-right:4px;
+    width:15px;
+    height:15px;
+    text-align: center;
+    line-height:15px;
+    cursor:pointer;
+    /*background: black;*/
+    /*color:#fff;*/
+    padding:2px;
+    border-radius: 3px;
+    transition:0.3s;
+}
+.cardContents .option .size .optionItems li.active{
+    background: black;
+    color:#fff;
+}
+.cardContents .option .color{
+    margin-bottom:14px;
+}
+.cardContents .option .color p{
+    margin-bottom:8px;
+}
+.cardContents .option .color .optionItems{
+    font-size:0;
+}
+.cardContents .option .color .optionItems li{
+    display:inline-block;
+    margin-right:4px;
+    width:15px;
+    height:15px;
+    text-align: center;
+    line-height:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+.cardContents .option .color .optionItems li.active{
+    border-radius:50%;
+}
+.cardContents .option .color .optionItems li:nth-child(1){
+    background: #808000;
+}
+.cardContents .option .color .optionItems li:nth-child(2){
+    background: #ff0000;
+}
+.cardContents .option .color .optionItems li:nth-child(3){
+    background: #ffc0cb;
+}
+.cardContents .option .color .optionItems li:nth-child(4){
+    background: mediumpurple;
+}
+.cardContents .option .color .optionItems li:nth-child(5){
+    background: dodgerblue;
+}
+.cardContents .like{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.cardContents .like:before{
+    content: "\f08a";
+    font-family:"fontawesome", sans-serif;
+}
+.cardContents .like.active:before{
+    content:"\f004";
+    color:red;
+}
+.cardContents .addCart{
+    width:100%;
+    padding:7px;
+    background: white;
+    outline: none;
+    border: 1px solid #ddd;
+}
+.cardContents .addCart:hover{
+    background: black;
+    color:white;
+}

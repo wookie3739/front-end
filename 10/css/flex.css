@@ -1,0 +1,82 @@
+/* 기본 값은 부모의 높이가 주어졌을 때 stretch(높이만큼)*/
+/* justify-content: 수평, align-items: 수직 정렬*/
+/* flex: 부모 요소가 자식을 컨트롤한다.*/
+
+.container{
+    border:5px solid black;
+    height:200px;
+    /*display:flow-root;*/
+    display:flex;
+    justify-content: center;
+    /*justify-content:flex-end;*/
+    align-items:center;
+    /*align-items:flex-start;*/
+    /*align-items:flex-end;*/
+    /*align-items:stretch;*/
+}
+
+.container .box{
+    width:100px;
+    /*height:100px;*/
+    background: dodgerblue;
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    /*float:right;*/
+}
+
+.container .box:nth-child(1){
+    /*height:150px;*/
+}
+.container .box:nth-child(2){
+    /*height:200px;*/
+
+}
+.container .box:nth-child(3){
+    /*height:250px;*/
+}
+
+.container2{
+    border:5px solid red;
+    /*height:200px;*/
+    display:flex;
+    /*wrap속성을 써야 줄바꿈처리가된다.*/
+    flex-wrap:wrap;
+}
+
+.container2 .box{
+    width:100px;
+    height:100px;
+    background: dodgerblue;
+    border:5px solid black;
+    box-sizing: border-box;
+}
+.container3{
+    border:5px solid red;
+    display:flex;
+    /*끝 정렬*/
+    /*justify-content: space-between;*/
+    /*왼쪽, 오른쪽 여백을 균등하게 사용*/
+    /*justify-content: space-around;*/
+    /*여백을 양쪽으로 1대1로 사용*/
+    justify-content: space-evenly;
+
+
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*반응형 때 많이 사용(폰 화면)*/
+    /*flex-direction: column;*/
+    /*flex-direction:column-reverse;*/
+}
+.container3 .box{
+    width:100px;
+    height:100px;
+    background: dodgerblue;
+    border:5px solid black;
+    box-sizing: border-box;
+    font-size:20px;
+    color:white;
+
+}

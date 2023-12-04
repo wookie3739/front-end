@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="js/복습.js" type =module"></script>
+	<style>
+		main{
+			height:100vh;
+			margin: 0 auto;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.box{
+			border:1px solid black;
+			padding:20px;
+			margin:20px;
+		}
+		.click{
+			border: 2px solid black;
+			padding:20px;
+		}
+		.aqua{
+			background: aqua;
+		}
+		/*.orange{*/
+		/*	background: orange;*/
+		/*}*/
+		/*.purple{*/
+		/*	background: purple;*/
+		/*}*/
+		/*.green{*/
+		/*	background: green;*/
+		/*}*/
+	</style>
+</head>
+<body>
+<main>
+<div class="box" id ="box1">box1</div>
+<div class="box" id ="box2">box2</div>
+<div class="box" id ="box3">box3</div>
+<div class="box" id ="box4">box4</div>
+	<div class="click">CLICK!</div>
+</main>
+<script>
+	let count = 0;
+	let hasCount = 0;
+	
+	// if(!count){
+	// 	boxes[count].className = "box aqua";
+	// }
+	const changeColor = (has, cur) =>{
+		boxes[has].className = "box";
+		boxes[cur].className = "box aqua";
+		
+	};
+	const increment = () => {
+		if(count < boxes.length - 1){
+			count++;
+		} else{
+			count = 0;
+		}
+	};
+	
+	function foo(event) {
+		increment();
+		changeColor(hasCount, count);
+		hasCount = count;
+		
+		
+		
+		
+		
+		
+		// if(boxes.length > count) {
+		// 	boxes[count].className = 'box aqua';
+		// 	a = boxes[count++];
+		// 	hasCount = count;
+		// 	console.log(hasCount);
+		// 	}
+		
+		//  else{
+		// 	count = 0;
+		// 	boxes[count].className = 'box aqua';
+		// }
+	}
+	
+	
+	const boxes = document.querySelectorAll('.box');
+	const clickBox = document.querySelector('.click');
+	clickBox.addEventListener('click', foo);
+	
+	
+	
+	
+	
+	
+	
+	
+	// function foo(event) {
+	// 	if(boxes.length > n){
+	// 		boxes[n++].className = "box aqua";
+	// 	} else{
+	// 		for(let i = 0; i < boxes.length; i++){
+	// 		boxes[i].className = "box";
+	// 	} n = 0;
+	// 	}
+	// }
+	// function foo(event) {
+	// 	if (boxes.length > n) {
+	// 		boxes[n].className = "box aqua";
+	// 		n++;
+	// 	} else {
+	// 		resetBoxes();
+	// 	}
+	// }
+	//
+	// function resetBoxes() {
+	// 	n = 0;
+	// 	resetNextBox();
+	// }
+	//
+	// function resetNextBox() {
+	// 	if (n < boxes.length) {
+	// 		boxes[n].className = "box";
+	// 		n++;
+	// 		resetNextBox();
+	// 	}
+	// }
+</script>
+</body>
+</html>
+

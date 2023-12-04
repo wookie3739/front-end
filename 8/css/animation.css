@@ -1,0 +1,95 @@
+a{
+    text-decoration:none;
+    color:white;
+}
+section{
+    width:100%;
+    height:100vh;
+    position:relative;
+    background: #333;
+}
+
+.contents{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.contents .square{
+    width:400px;
+    height:400px;
+    position:relative;
+}
+
+.contents .square .textBox{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:300px;
+    color:white;
+    text-align: center;
+}
+.contents .square .textBox p{
+    margin-top:15px;
+}
+.contents .square .textBox a{
+    /*display:block;*/
+    display:inline-block;
+    margin-top:20px;
+    font-size:20px;
+    border:1px solid white;
+    border-radius:40% 50% 60% 45%;
+    padding:10px;
+}
+
+.contents .square article{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    border:1px solid white;
+    border-radius:35% 40% 60% 45%;
+    animation: ani 3s 1s infinite linear both;
+    transition:0.5s;
+}
+
+.contents .square article:nth-child(1){
+    /*transform:rotate(15deg);*/
+    animation-duration:4s;
+}
+.contents .square article:nth-child(2){
+    /*transform:rotate(40deg);*/
+    animation-duration:5s;
+    animation-direction:reverse;
+}
+.contents .square article:nth-child(3){
+    /*transform:rotate(70deg);*/
+    animation-duration:3s;
+}
+.contents .square:hover article{
+    border-color:transparent;
+}
+.contents .square:hover article:nth-child(1){
+    background: crimson;
+    opacity:0.4;
+}
+.contents .square:hover article:nth-child(2){
+    background: orangered;
+    opacity:0.6;
+}
+.contents .square:hover article:nth-child(3){
+    background: blue;
+    opacity:0.8;
+}
+
+@keyframes ani {
+    0% {
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

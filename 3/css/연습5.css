@@ -1,0 +1,29 @@
+
+.container{
+    width:900px;
+    background-color: purple;
+    display:flow-root;
+}
+
+.left{
+    width:300px;
+    height:280px;
+    background-color: greenyellow;
+    float:left;
+}
+
+.center{
+    width:280px;
+    height:280px;
+    margin:0 10px;
+    background-color: blue;
+    float:left;
+}
+
+.right{
+    width:300px;
+    height:280px;
+    background-color: orangered;
+    float:left;
+}
+

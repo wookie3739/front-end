@@ -1,0 +1,63 @@
+ul a {
+    font-size: 30px;
+    font-weight: bold;
+}
+ul .orange {
+    background-color: orange;
+}
+ul .purple {
+    background-color: purple;
+}
+ul .mediumPurple {
+    background-color: mediumpurple;
+}
+ul .red {
+    background-color: red;
+}
+ul .pink {
+    background-color: hotpink;
+}
+
+
+
+/*.topMenu li {*/
+/*    background-color: red;*/
+/*}*/
+/*.topMenu a {*/
+/*    background-color: orange;*/
+/*}*/
+
+
+/*.mainMenu > li > a {*/
+/*    background-color: mediumpurple;*/
+/*}*/
+/*.sub a {*/
+/*    background-color: red;*/
+/*}*/
+
+/*.sub .orange {*/
+/*    background-color: orange;*/
+/*}*/
+/*.sub .purple {*/
+/*    background-color: purple;*/
+/*}*/
+/*.sub .pink {*/
+/*    background-color: hotpink;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

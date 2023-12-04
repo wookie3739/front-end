@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.wrap{
+			display:flex;
+		}
+		.wrap .box{
+			width:200px;
+			height:200px;
+			border:5px solid black;
+			box-sizing: border-box;
+			margin:20px;
+			transition:0.3s;
+		}
+		.wrap .box.active{
+			background: black;
+			color:white;
+			border-radius: 50%;
+		}
+	</style>
+	<script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+	<div class="box">박스</div>
+	<div class="box">박스</div>
+	<div class="box">박스</div>
+	<div class="box">박스</div>
+</div>
+<script>
+<!--	wrap box를 클릭을 했을 때 function을 어떻게할거야?-->
+	$(".wrap .box").dblclick(function(){
+		$(this).addClass("active");
+		$(this).siblings().removeClass("active");
+		// $(this).toggleClass("active");
+	});
+	$(".wrap").mouseenter(function(){
+		alert("asdasdasdsad");
+	});
+	$("div").hide();
+</script>
+</body>
+</html>

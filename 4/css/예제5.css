@@ -1,0 +1,40 @@
+header{
+    width:1000px;
+    height:100px;
+    background-color: orange;
+    margin-bottom:20px;
+}
+main{
+    display:flow-root;
+}
+.snb{
+    width:200px;
+    height:700px;
+    background-color: blue;
+    float:left;
+}
+.contents{
+    width:790px;
+    height:700px;
+    background-color: greenyellow;
+    float:left;
+    margin-left:10px;
+}
+.bottomList{
+    display:flow-root;
+    margin:30px 0 20px 0;
+}
+.bottomList div{
+    width:330px;
+    height:130px;
+    background-color: hotpink;
+    float:left;
+}
+.bottomList .box2{
+    margin: 0 5px;
+}
+footer{
+    width:1000px;
+    height:50px;
+    background-color: black;
+}

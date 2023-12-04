@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    background: #eee;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    background: #eee;
+    /*background: orange;*/
+}
+header {
+    background: white;
+    /*height: 60px;*/
+    /*background: red;*/
+    text-align: center;
+    /*box-sizing: border-box;*/
+    padding: 14px 0;
+}
+.login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -205px 0 0 -180px;
+    width: 360px;
+    height: 410px;
+}
+.login h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.login .btn {
+    background: green;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.login div:nth-of-type(1) {
+    background: white;
+}
+.login div:nth-of-type(3) {
+    background: #898c9b;
+}
+.login .btn:nth-of-type(4) {
+    background: #11ce00;
+}
+.login .btn:nth-of-type(5) {
+    background: #0076fe;
+}
+.login .btn:nth-of-type(6) {
+    background: #00c026;
+}
+.login .btn:nth-of-type(1) a {
+    color: grey;
+}
+.login .btn a {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.login .orText {
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    color: grey;
+}
+.login .orText span {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5px;
+    width: 44%;
+    height: 1px;
+    background: lightgray;
+}
+.login .orText span:nth-of-type(1){
+    left: 0;
+}
+.login .orText span:nth-of-type(2){
+    right: 0;
+}
+.login .loginFooter {}
+.login .loginFooter p {
+    margin-top: 10px;
+    text-align: center;
+}
+.login .loginFooter p a {
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

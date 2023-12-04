@@ -1,0 +1,59 @@
+header{
+    width:100%;
+    background-color: orange;
+}
+
+header .container{
+    width:1000px;
+    height:100px;
+    background-color: green;
+    margin:0 auto;
+}
+
+.visual{
+    width:100%;
+    height:300px;
+    background-color: blue;
+    margin-bottom:20px;
+}
+
+.contents{
+    width:1000px;
+    margin: 0 auto;
+    display:flow-root;
+    position:relative;
+}
+
+.contents .wrap{
+    width:700px;
+    float:left;
+}
+
+.contents .wrap div{
+    width:350px;
+    height:200px;
+    float:left;
+}
+
+.box1, .box4, .box5{
+    background-color: orange;
+}
+.box2, .box3, .box6{
+    background-color: pink;
+}
+
+.sideContents{
+    width:300px;
+    height:700px;
+    background-color: green;
+    position:absolute;
+    top:-100px;
+    right:0;
+}
+
+.footer{
+    width:1000px;
+    height:50px;
+    background-color: black;
+    margin:0 auto 30px auto;
+}

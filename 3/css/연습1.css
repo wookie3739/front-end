@@ -1,0 +1,41 @@
+.box1 {
+    width:500px;
+    background-color: red;
+}
+
+.box1 .child {
+    width:200px;
+    height:50px;
+    background-color: greenyellow;
+    border: 5px solid black;
+}
+
+.box2{
+    width:500px;
+    background-color: orange;
+}
+
+.box2 .child{
+    width:300px;
+    height:100px;
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+.box2 .second{
+    height:auto;
+}
+
+.box2 .child .children{
+    width:100px;
+    height:100px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+.box3{
+    width:500px;
+    height:400px;
+    background-color: dodgerblue;
+}
+

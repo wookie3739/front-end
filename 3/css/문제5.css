@@ -1,0 +1,55 @@
+.container1, .container2{
+    height:1000px;
+    background-color: grey;
+    z-index:998;
+}
+
+.main{
+    width:400px;
+    height:400px;
+    background-color: orange;
+    position:relative;
+}
+
+.main div{
+    position:absolute;
+    background-color: blue;
+}
+.main .box1, .box2, .box5, .box6{
+    width:100px;
+    height:100px;
+}
+.box1{
+    top:0;
+    left:0;
+}
+
+.box2{
+    left:0;
+    bottom:30px;
+}
+
+.box3{
+    width:140px;
+    height:140px;
+    bottom:130px;
+    left:130px;
+}
+.box4{
+    width:200px;
+    height:200px;
+    left:200px;
+    top:0;
+}
+.main .box5 {
+    right:0;
+    top:0;
+    background-color: deeppink;
+}
+
+.main .box6{
+    right:0;
+    bottom:0;
+    position:fixed;
+    z-index:999;
+}

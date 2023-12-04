@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+.body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.description{
+    border: 5px solid black;
+    margin:50px;
+    font-size:24px;
+}
+
+.d1{
+    font-weight: 100;
+    text-align:right;
+}
+
+.d2{
+    font-weight:300;
+}
+
+.d3{
+    font-weight:700;
+    word-spacing:100px;
+    /*자간*/
+    letter-spacing:-1px;
+    /*행간*/
+    line-height:1;
+}
+
+.d4{
+    font-weight:900;
+    /*끝 정렬*/
+    text-align:justify;
+    /*첫 대문자*/
+    /*text-transform: capitalize;*/
+    /*전부 대문자*/
+    /*text-transform:uppercase;*/
+    /*전부 소문자*/
+    text-transform:lowercase;
+    /*밑줄*/
+    /*text-decoration:underline;*/
+    /*중앙 라인*/
+    text-decoration:line-through;
+}
+
+.textContents{
+    border:5px solid red;
+    /*강제로 한 줄 만듦*/
+    white-space:nowrap;
+    margin:50px;
+}
+
+.textContents p {
+    font-size: 30px;
+    font-weight: 200;
+    text-transform:uppercase;
+    /*넘쳐나는 거 가리기*/
+    overflow:hidden;
+    /*넘쳐난 것들은 ...처리*/
+    text-overflow:ellipsis;
+}
+
+.textContents2{
+    width:300px;
+    border:5px solid red;
+    /*강제로 한 줄 만듦*/
+    /*white-space:nowrap;*/
+    margin:50px;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    /*-webkit-line-clamp:revert;*/
+    -webkit-line-clamp: 5;
+    /*line-clamp:4;*/
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+.textContents2 p {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform:uppercase;
+    /*넘쳐나는 거 가리기*/
+    /*overflow:hidden;*/
+    /*넘쳐난 것들은 ...처리*/
+    /*text-overflow:ellipsis;*/
+}
+.vert {
+    -moz-orient: vertical;
+    width: 16px;
+    height: 150px;
+}
+
+.box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.box:hover {
+    animation-name: ani;
+    animation-duration: 3s;
+    /*animation-delay:0.2s;*/
+    /*반복 횟수*/
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    /*animation-direction:alternate-reverse;*/
+}
+
+@keyframes ani {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+/*div {*/
+/*    position: absolute;*/
+/*    left: 40px;*/
+/*    top: 40px;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: lightgray;*/
+/*}*/
+
+/*.rotate {*/
+/*    background-color: transparent;*/
+/*    outline:3px dashed red;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+/*.rotate-translate {*/
+/*    background-color: pink;*/
+/*    transform: rotate(45deg) translateX(180px);*/
+/*}*/
+
+/*.translate-rotate {*/
+/*    background-color: gold;*/
+/*    transform: translateX(180px) rotate(45deg);*/
+/*}*/
+
+
+/*font-family*/
+/*font-weight*/
+/*font-size*/
+/*color*/
+/*text-align*/
+/*word-spacing*/
+/*letter-spacing*/
+/*line-height*/
+/*decoration underline, line-throw, none*/
+/*transform uppercase lowercase capitalize*/
+/*white-space nowrap*/
+/*text-overflow ellipsis*/
+/*overflow hidden*/
+
+/*webkit
+display: -webkit-box
+-webkit-box-orient: vertical
+-webkit-line-clamp:3
+text-overflow:ellipsis
+overflow: hidden
+*/

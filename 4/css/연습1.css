@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:500px;
+    height:500px;
+    background-color: red;
+    position:relative;
+}
+
+.wrap {
+    width:400px;
+    height:400px;
+    background-color: orange;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    background-color: dodgerblue;
+    position:absolute;
+    right:0;
+    top:0;
+}

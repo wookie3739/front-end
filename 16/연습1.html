@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="js/연습1.js" type="module"></script>
+		<style>
+			main{
+				width:700px;
+				height:100vh;
+				margin: 0 auto;
+				display:flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.box{
+				border:1px solid black;
+				padding:20px;
+				margin:20px;
+			}
+			.aqua{
+				background: aqua;
+			}
+			
+		</style>
+</head>
+<body>
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="click"></div>
+<script>
+	let a;
+	function foo(event) {
+		if(a){
+			a.className="box";
+		}
+		event.target.className = "box aqua";
+		 a = event.target;
+		console.log(a);
+	}
+	
+	const box1 = document.querySelector('#box1');
+	const box2 = document.querySelector('#box2');
+	const box3 = document.querySelector('#box3');
+	const box4 = document.querySelector('#box4');
+	box1.addEventListener('click', foo);
+	box2.addEventListener('click', foo);
+	box3.addEventListener('click', foo);
+	box4.addEventListener('click', foo);
+	
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+span,
+strong,
+em{
+  background-color: orange;
+    font-size:40px;
+    font-weight:bold;
+}
+
+div {
+    font-size:30px;
+    font-weight:bold;
+    background-color: red;
+    margin-bottom:10px;
+}

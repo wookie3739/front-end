@@ -1,0 +1,323 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{
+    text-decoration:none;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+a{
+    color:black;
+}
+.grubus a{
+    color:#666;
+}
+.astel a{
+    color:#666;
+}
+section{
+    height:100vh;
+    position:relative;
+    font-family:'Nanum Gothic', sans-serif;
+}
+.trash{
+    position:absolute;
+    width:100%;
+    height:1px;
+    background: red;
+    top:10%;
+}
+main{
+    position:absolute;
+    width:970px;
+    height:100%;
+    left:50%;
+    transform:translate(-50%,0);
+}
+header{
+    position:relative;
+    width:100%;
+    height:80px;
+}
+header .leftUp{
+    position:absolute;
+    display:flex;
+    top:41px;
+    align-items:flex-end;
+}
+header .leftUp li{
+    font-size:16px;
+    font-weight:700;
+    position:relative;
+}
+header .leftUp .grubus{
+    font-size:14px;
+    color:#666;
+}
+header .leftUp .astel{
+    font-size:14px;
+    color:#666;
+}
+header .leftUp .goods{
+    margin-left:50px;
+}
+header .leftUp .community{
+    margin-left:58px;
+}
+header .leftUp .support{
+    margin-left:44px;
+}
+header .leftUp .shoppingMall{
+    margin-left:50px;
+}
+header .leftUp .grubus{
+    margin-left:32px;
+}
+header .leftUp .astel{
+    margin-left:15px;
+}
+header .leftUp li a div{
+    position:absolute;
+    width:0;
+    height:1px;
+}
+header .leftUp li a:hover div{
+    position:absolute;
+    width:100%;
+    left:50%;
+    transform:translate(-50%, 0);
+    background:red;
+    transition:0.5s;
+}
+header .rightUp .rightUp_top{
+    display:flex;
+    justify-content:right;
+    align-items:center;
+    font-size:10px;
+    font-weight:700;
+    color:#808080;
+    margin-top:5px;
+}
+header .rightUp .rightUp_top div{
+    margin-right:9px;
+}
+header .rightUp .rightUp_top div:last-child{
+    margin-right:0;
+}
+header .rightUp .rightUp_down{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:14px;
+}
+header .rightUp .rightUp_down input{
+    width:128px;
+    height:20px;
+    border:2px solid lightgray;
+}
+.visual{
+    position:relative;
+    width:100%;
+    height:465px;
+    margin-top:50px;
+}
+.visual .img_box{
+    position:absolute;
+    width:100%;
+    height:465px;
+    object-fit:cover;
+}
+.visual .img_box .slick-dots{
+    position:absolute;
+    bottom:1%;
+}
+.visual .img_box .slick-dots li{
+    background: black;
+    border-radius:50%;
+}
+.visual .img_box .slick-dots li button{
+    display:none;
+}
+.visual .left{
+    position:absolute;
+    top:50%;
+}
+.visual .right{
+    position:absolute;
+    top:50%;
+    right:0;
+}
+.visual .product_btn{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.board_list{
+    display:flex;
+    justify-content: space-between;
+}
+.board_list .notice{
+    position:relative;
+    width:310px;
+    height:180px;
+}
+.board_list .notice .notice_header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom:1px solid lightgray;
+}
+.board_list .notice .notice_header p{
+    font-size:15px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+.board_list .notice .notice_main{
+    margin-top:10px;
+}
+.board_list .notice .notice_main div{
+    font-size:13px;
+    font-weight:300;
+    display:flex;
+    justify-content: space-between;
+    margin-top:8px;
+}
+.board_list .notice .notice_main div a p:before{
+    content:"";
+    display:inline-block;
+    background-image:url("../images/main/bullet01.gif");
+    width:2px;
+    height:3px;
+    margin-right:3px;
+    margin-bottom:2px;
+}
+.board_list .notice .notice_main div a{
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.board_list .review{
+    position:relative;
+    width:310px;
+    height:180px;
+}
+.board_list .review .review_header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom:1px solid lightgray;
+}
+.board_list .review .review_header p{
+    font-size:15px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+.board_list .review .review_main{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.board_list .review .review_main p{
+    font-size:13px;
+    font-weight:bold;
+    color:red;
+    line-height:1.3;
+    margin-left:10px;
+}
+.board_list .review .review_footer p a:before{
+    content:"";
+    display:inline-block;
+    background-image:url("../images/main/bullet01.gif");
+    width:2px;
+    height:3px;
+    margin-right:3px;
+    margin-bottom:2px;
+}
+.board_list .review .review_footer{
+    font-size:13px;
+    margin-top:12px;
+    border-top:1px dotted lightgrey;
+}
+.board_list .review .review_footer p{
+    margin-top:18px;
+}
+.board_list .review .review_footer p:last-child{
+    margin-top:8px;
+}
+.board_list .event{
+    position:relative;
+    width:310px;
+    height:180px;
+}
+.board_list .event .event_header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom:1px solid lightgray;
+}
+.board_list .event .event_header p{
+    font-size:15px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+.board_list .event .event_main{
+    display:flex;
+    object-fit: cover;
+    margin:10px 0 12px 0;
+    justify-content: center;
+}
+.board_list .event .event_footer{
+    font-size:13px;
+    border-top:1px dotted lightgrey;
+}
+.board_list .event .event_footer p{
+    margin-top:18px;
+}
+.board_list .event .event_footer p:last-child{
+    margin-top:8px;
+}
+.board_list .event .event_footer p a:before{
+    content:"";
+    display:inline-block;
+    background-image:url("../images/main/bullet01.gif");
+    width:2px;
+    height:3px;
+    margin-right:3px;
+    margin-bottom:2px;
+}
+.bottom_list{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+footer{
+    position:absolute;
+    width:100%;
+    height:80px;
+    background: black;
+    bottom:0;
+    margin-top:60px;
+    font-size:12px;
+    color:lightgrey;
+}
+footer .introduce{
+    display:flex;
+    position:absolute;
+    width:970px;
+    left:50%;
+    transform: translate(-50%, 0)
+}
+footer .introduce div{
+    margin-right:20px;
+    margin-top:10px;
+}
+footer .address{
+    position:absolute;
+    width:970px;
+    left:50%;
+    transform:translate(-50%,0);
+    bottom:0;
+}
+footer .address p{
+    margin-top:10px;
+}

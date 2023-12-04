@@ -1,0 +1,49 @@
+header{
+    width:900px;
+    height:120px;
+    background-color: blue;
+    margin-bottom:20px;
+}
+.wrap{
+    width:900px;
+}
+main{
+    display:flow-root;
+}
+
+main div{
+    background-color: orange;
+    float:left;
+}
+
+.left{
+    height:400px;
+    width:200px;
+}
+
+.center{
+    height:400px;
+    width:420px;
+    margin:0 20px;
+}
+
+.right{
+    height:400px;
+    width:240px;
+}
+.list_box{
+    background-color: aqua;
+    display:flow-root;
+    padding:10px;
+}
+
+.list_box .box{
+    width:170px;
+    height:70px;
+    background-color: blue;
+    margin-right:8px;
+    float:left;
+}
+.list_box .box.box1{
+    width:168px;
+}

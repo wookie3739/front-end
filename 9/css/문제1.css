@@ -1,0 +1,61 @@
+section{
+    height:100vh;
+    background: red;
+    position:relative;
+}
+
+section main{
+    position:absolute;
+    padding:50px 20px;
+    background: white;
+    box-sizing:border-box;
+    border-radius:20px;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+section main .box{
+    width:80px;
+    height:80px;
+    display:inline-block;
+    margin-right:30px;
+    /*background: white;*/
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+
+section main .box:last-child{
+    margin-right:0;
+}
+
+.box .hidden{
+    position:absolute;
+    width:100%;
+    height:0;
+    background: blue;
+    transition:0.2s;
+    bottom:0;
+}
+.box:hover .hidden{
+    height:100%;
+}
+.box .fa{
+    position:absolute;
+    font-size:50px;
+    /*background: orange;*/
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    transition:0.3s;
+}
+
+.box:hover .fa{
+    position:absolute;
+    color:white;
+    transform: translate(-50%, -50%) rotateY(360deg);
+
+}
+

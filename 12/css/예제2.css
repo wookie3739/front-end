@@ -1,0 +1,88 @@
+section{
+    position:relative;
+    height:100vh;
+    box-sizing: border-box;
+}
+.login a{
+    text-decoration: none;
+    color:white;
+}
+.forgot span a{
+    text-decoration: none;
+    color:black;
+}
+form {
+    position: absolute;
+    width: 800px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 10px lightgrey;
+    border-radius: 10px;
+    padding:25px 0;
+}
+main{
+    display:flex;
+    position:absolute;
+    width:750px;
+    /*height:450px;*/
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    /*background: orange;*/
+    flex-wrap:wrap;
+}
+main p{
+    margin-top:25px;
+}
+main .field{
+    border:1px solid lightgrey;
+    border-radius:5px;
+}
+main .field input{
+    width:700px;
+    height:40px;
+    border:none;
+    outline:none;
+}
+main .field:hover{
+    border:1px solid dodgerblue;
+}
+main .field input:hover::placeholder{
+    color:transparent;
+}
+main .field label{
+    display:block;
+    float:left;
+    margin:10px;
+    text-align:center;
+    /*border:1px solid red;*/
+    font-size:16px;
+
+}
+
+main .field .fa-lock{
+    /*padding-right:6px;*/
+    margin-right:6px;
+}
+.forgot {
+    margin-top:25px;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    /*border:1px solid black;*/
+    flex-wrap:wrap;
+}
+.forgot span:hover{
+    text-decoration: underline;
+}
+.login{
+    height:30px;
+    padding:10px 125px;
+    background: dodgerblue;
+    border-radius:10px;
+    margin:25px 0;
+}
+

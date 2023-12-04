@@ -1,0 +1,81 @@
+body{
+    height:100vh;
+    position:relative;
+    box-sizing: border-box;
+}
+
+header{
+    width:100%;
+    /*background: red;*/
+    border-bottom:1px solid black;
+    height:100px;
+}
+
+header h1{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    position:absolute;
+    left:50%;
+    /*background: red;*/
+    width:600px;
+    height:1000px;
+    transform: translateX(-50%);
+}
+
+.container .imgBox{
+    display:flex;
+    /*border:2px solid blue;*/
+    box-sizing: border-box;
+    flex-wrap:nowrap;
+    margin-top:50px;
+    height:250px;
+}
+.container .imgBox div{
+    border:1px solid red;
+}
+.container .imgBox div p{
+}
+.container .imgBox div img {
+    width:200px;
+    height:200px;
+    /*border:1px solid red;*/
+}
+.container .btnBox{
+    display:flex;
+    width:600px;
+    height:200px;
+    /*background: orange;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.container .btnBox > div{
+    margin:10px;
+}
+.container .btnBox div button{
+    background: white;
+    border:3px solid black;
+    font-weight:bold;
+}
+.coffee {
+    width:600px;
+    display:flex;
+    /*background: red;*/
+    justify-content: center;
+}
+
+.coffee > button{
+    padding:30px;
+    border:2px solid red;
+    background: white;
+}
+
+
+
+
+
+

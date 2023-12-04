@@ -1,0 +1,36 @@
+.wrap{
+    height:100vh;
+    position:relative;
+    display:flow-root;
+}
+.wrapBox{
+    float:left;
+    width:200px;
+}
+.wrap .top{
+    width:200px;
+    height:100px;
+    background: orange;
+}
+.wrap .left{
+    width:200px;
+    height:calc(100vh - 300px);
+    background: black;
+}
+.wrap .bottom{
+    width:200px;
+    height:200px;
+    background: orange;
+}
+.contents{
+    height:100%;
+    float:left;
+    background: blue;
+    width: calc(100vw - 550px);
+}
+.sideContents{
+    width:350px;
+    height:100%;
+    float:left;
+    background: orange;
+}

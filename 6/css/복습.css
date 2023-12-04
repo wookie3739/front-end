@@ -1,0 +1,77 @@
+.layout{
+    width:1000px;
+    margin:0 auto;
+}
+.layout div{
+    width:200px;
+    height:200px;
+}
+
+.header{
+    height:100px;
+    background: yellow;
+}
+.container{
+    display:flow-root;
+    margin-top:20px;
+    /*height:700px;*/
+}
+
+.container .snb{
+    float:left;
+    width:200px;
+    height:700px;
+    margin-right:10px;
+    background: dodgerblue;
+}
+.container .contents{
+    float:left;
+    width:790px;
+    height:700px;
+    background: greenyellow;
+}
+.bottomList{
+    display:flow-root;
+    margin-top:30px;
+    height:130px;
+}
+.bottomList li{
+    float:left;
+    width:330px;
+    height:130px;
+    box-sizing:border-box;
+    background: purple;
+}
+.bottomList li:nth-child(2){
+    margin:0 5px;
+}
+.footer{
+    margin-top:20px;
+    height:50px;
+    background: black;
+}
+#id_box{
+    font-size:30px;
+    font-weight:bold;
+    color:grey;
+}
+    /* 1순위(id) */
+.box{
+    font-size:30px;
+    font-weight:bold;
+    color:blue;
+}
+/* 2순위(그냥 클래스 선택자)*/
+
+.box:nth-child(3){
+    font-size:50px;
+    color:red;
+}
+/* 3순위(그냥 클래스 선택자 + child)*/
+
+.wrap .box:nth-child(3){
+    font-size:100px;
+    color:purple;
+}
+
+/* 4순위(클래스 선택자 + 클래스 선택자 + child)*/

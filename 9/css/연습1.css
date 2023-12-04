@@ -1,0 +1,49 @@
+/*section{*/
+
+/*}*/
+
+/*section .box1{*/
+/*    font-size:30px;*/
+/*    border:5px solid red;*/
+/*    width:500px;*/
+/*    height:500px;*/
+/*    !*overflow:scroll;*!*/
+/*    !*overflow:auto;*!*/
+/*    overflow:hidden;*/
+/*}*/
+
+.wrap{
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    /*background: black;*/
+    /*overflow:hidden;*/
+}
+
+.wrap .box{
+    width:200px;
+    height:200px;
+}
+
+.wrap .box1{
+    background: red;
+    transform:translate(100px, 200px);
+}
+.wrap:hover .box2{
+    transform:rotate(360deg);
+}
+.wrap .box2{
+    background: orange;
+    transition:1s;
+    /*transform:rotate(20deg);*/
+}
+
+.wrap .box3{
+    background: dodgerblue;
+    transform:scale(0.5);
+    transition:10s;
+}
+
+.wrap .box3:hover {
+    transform:scale(6);
+}

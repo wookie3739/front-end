@@ -1,0 +1,21 @@
+.container{
+    width:660px;
+    background-color: whitesmoke;
+    display:flow-root;
+    box-sizing:border-box;
+}
+
+.box{
+    background-color:orange;
+    width:200px;
+    height:200px;
+    margin: 10px;
+    float: left;
+}
+.box1{
+    height:420px;
+}
+.box5{
+    height:420px;
+    float:right;
+}

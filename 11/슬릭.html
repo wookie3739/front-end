@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<!--	<link rel="stylesheet" href="css/reset.css">-->
+	<link rel="stylesheet" href="css/슬릭.css">
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+
+<div class="testSlider">
+	<div><img src="images/visual1.jpg">
+		<img src="images/visual1.jpg">
+	</div>
+	<div><img src="images/visual2.jpg"></div>
+	<div><img src="images/visual3.jpg"></div>
+</div>
+<script>
+	const dq = $(".testSlider");
+	
+	const dd = {
+		autoplay: true,
+		slidesToShow: 1,
+		// prevArrow: $(".prev"),
+		// nextArrow: $(".next"),
+		// slidesToScroll:2,
+		dots: true,
+		// fade:true,
+		arrows: true,
+		// centerMode:true,
+		adaptiveHeight:true,
+		// variableWidth: true,
+	}
+	
+	dq.slick(dd);
+	
+</script>
+</body>
+</html>

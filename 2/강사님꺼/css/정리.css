@@ -1,0 +1,31 @@
+
+/* 선택자 selector */
+
+
+/* 태그선택자 */
+/* 태그명 {} */
+div {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* 클래스 선택자 */
+/*.속성값 {} */
+.red {
+    color: red;
+}
+
+/* 아이디 선택자 */
+/* #속성값 {} */
+#purple {
+    color: purple;
+}
+
+
+
+
+
+
+
+
+

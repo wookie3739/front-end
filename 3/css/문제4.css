@@ -1,0 +1,51 @@
+.positionBox {
+    width:800px;
+    height:700px;
+    background-color: #a5da7f;
+    position:relative;
+}
+
+.positionBox div{
+    position:absolute;
+}
+
+.box{
+    width:200px;
+    height:200px;
+}
+
+.position1{
+    left:20px;
+    top:20px;
+    background-color: #ffb310;
+    z-index:4;
+}
+
+.position2{
+    left:70px;
+    top:70px;
+    background-color: #7f7f7f;
+    z-index:2;
+}
+
+.position3{
+    right:-20px;
+    top:-20px;
+    background-color: #3a6ef2;
+}
+
+.position4{
+    left:0;
+    bottom:0;
+    width:400px;
+    height:300px;
+    background-color: #3d8c53;
+}
+
+.position5{
+    right:0;
+    top:0;
+    width:150px;
+    height:150px;
+    background-color: #ff7c07;
+}

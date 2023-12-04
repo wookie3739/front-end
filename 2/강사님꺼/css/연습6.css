@@ -1,0 +1,20 @@
+
+body {
+    font-size: 50px;
+}
+
+.parent {
+    /*width: 400px;*/
+    /*height: 400px;*/
+    background-color: red;
+
+}
+.parent .child {
+    width: 500px;
+    background-color: orange;
+}
+.parent .child .lastChild {
+    width: 300px;
+    height: 500px;
+    background-color: dodgerblue;
+}

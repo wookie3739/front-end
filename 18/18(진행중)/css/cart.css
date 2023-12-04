@@ -1,0 +1,79 @@
+
+section {
+    width: 1200px;
+    margin: 0 auto;
+}
+section h1 {
+    font-size: 34px;
+    padding-top: 10px;
+}
+
+.cart {
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.cart li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+.cart li .image {
+    width: 150px;
+    font-size: 0;
+}
+.cart li .image img {
+    width: 100%;
+}
+
+.cart li .price strong {
+    color: black;
+}
+
+.cart li .quantity {
+    display: flex;
+    width: 160px;
+    height: 40px;
+}
+.cart li .quantity button {
+    width: 40px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.cart li .quantity input {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.cart li .amount {
+    font-size: 18px;
+}
+.cart li .amount strong {}
+
+section strong {
+    color: red;
+}
+
+.paymentInfo {}
+.paymentInfo h2 {}
+.paymentInfo .contents {
+    display: flex;
+    border: 2px solid black;
+    padding: 30px;
+    margin-top: 10px;
+}
+.paymentInfo .contents p {
+    text-align: center;
+    font-size: 20px;
+    flex: 1;
+}
+.paymentInfo .contents p strong {}
+
+
+
+
+

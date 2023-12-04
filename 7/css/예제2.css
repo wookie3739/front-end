@@ -1,0 +1,55 @@
+.wrap{
+    height:100vh;
+    position:relative;
+}
+.wrap .top{
+    position:absolute;
+    width:200px;
+    height:100px;
+    top:0;
+    left:0;
+    right:0;
+    background: orange;
+}
+.wrap .left{
+    position:absolute;
+    width:200px;
+    top:100px;
+    left:0;
+    right:0;
+    bottom:0;
+    background: black;
+}
+.wrap .bottom{
+    position:absolute;
+    width:200px;
+    height:200px;
+    bottom:0;
+    left:0;
+    right:0;
+    background: orange;
+}
+.contents{
+    position:absolute;
+    left:200px;
+    right:350px;
+    top:0;
+    bottom:0;
+    background: blue;
+}
+
+.sideContents{
+    position:absolute;
+    background: orange;
+    right:0;
+    top:0;
+    bottom:0;
+    width:350px;
+}
+.wrap div{
+    text-align:center;
+    font-size:30px;
+}
+.wrap div:nth-child(2){
+    color:white;
+}

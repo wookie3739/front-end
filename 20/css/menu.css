@@ -1,0 +1,55 @@
+body{
+    height:100vh;
+    background: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width:1000px;
+}
+header{
+    width:1000px;
+    margin:0 auto;
+}
+header h1{
+    font-size:2rem;
+    color:yellow;
+}
+header p{
+    font-size:1rem;
+    color:white;
+}
+
+section .btn{
+    display:flex;
+    width:1000px;
+}
+section div button{
+    padding:10px;
+    cursor: pointer;
+    color:white;
+    background: darkblue;
+    border:none;
+    margin-right:5px;
+}
+section div button:hover{
+    background: yellow;
+    transition: 0.3s;
+    color:black;
+}
+section div button.active{
+    color:black;
+    background: yellow;
+}
+section .contents{
+    width:500px;
+    height:150px;
+    color:white;
+    text-align: left;
+    line-height: 1.5;
+    /*border:1px solid grey;*/
+    background: darkblue;
+    border-radius: 10px;
+}
+

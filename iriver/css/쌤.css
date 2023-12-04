@@ -1,0 +1,252 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body{
+    font-family:'Nanum Gothic',sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+.inner{
+    width:970px;
+    margin: 0 auto;
+}
+img{
+    display:block;
+}
+#header{
+    height:80px;
+    /*background: orange;*/
+    border-bottom:1px solid red;
+    /*box-sizing: border-box;*/
+}
+#header .logo{
+    margin-right:50px;
+    float:left;
+    padding-top:41px;
+}
+#header .logo a img{}
+#header .gnb{
+    float:left;
+    padding-top:41px;
+    /*background: blue;*/
+}
+#header .gnb li{
+    float:left;
+    line-height:1;
+}
+#header .gnb li:nth-child(1){margin-right:58px;}
+#header .gnb li:nth-child(2){margin-right:44px;}
+#header .gnb li:nth-child(3){margin-right:50px;}
+#header .gnb li:nth-child(4){margin-right:32px;}
+#header .gnb li:nth-child(5){margin-right:15px;}
+#header .gnb li a{}
+#header .gnb .small a{}
+
+#header .topMenu{
+    text-align:right;
+    padding-top:5px;
+}
+#header .topMenu li{
+    display:inline-block;
+    vertical-align: middle;
+}
+#header .topMenu li a{
+    font-size:10px;
+    line-height:20px;
+}
+#header .inner{
+    width:970px;
+    /*height:80px;*/
+    margin:0 auto;
+    /*background: yellow;*/
+}
+#header .rightContents{
+    /*display:flow-root;*/
+}
+#header .rightContents .topMenu{
+    /*float:left;*/
+}
+#header .rightContents .search{
+    /*display:flow-root;*/
+    float:right;
+}
+#header .rightContents .search input,
+#header .rightContents .search img{
+    float:left;
+}
+#header .rightContents .search input{
+    padding:0;
+    margin:0;
+    border:2px solid lightgrey;
+}
+#main{
+    padding-top:50px;
+    /*display:none;*/
+}
+#main .inner{
+    width:970px;
+    /*height:80px;*/
+    margin:0 auto;
+    /*background: yellow;*/
+}
+
+.visual{
+    position:relative;
+    background: dodgerblue;
+}
+.visual .productSlider{}
+.visual .productBtn{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.visual .prevArrow,
+.visual .nextArrow{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+.visual .prevArrow{
+    left:0;
+}
+.visual .nextArrow{
+    right:0;
+}
+.boardList{
+    margin-top:30px;
+    /*height:180px;*/
+    /*background: dodgerblue;*/
+}
+.boardList .contents{
+    display:flow-root;
+}
+.boardList .contents > div{
+    float:left;
+    width:310px;
+    height:180px;
+    box-sizing: border-box;
+    /*border:5px solid black;*/
+}
+.boardList .contents .title{
+    /*display:flow-root;*/
+    /*font-size:0;*/
+    text-align:right;
+    display:flow-root;
+    border-bottom:1px solid #ddd;
+    padding:0 10px 10px;
+    margin-bottom:10px;
+}
+.boardList .contents .title h2{
+    font-size:15px;
+    font-weight:700;
+    float:left;
+}
+.boardList .contents .title img{
+    float:right;
+    /*display:inline;*/
+}
+
+.boardList .contents .review{
+    margin:0 20px;
+}
+.boardList .contents .board{
+    text-align:right;
+    padding:0 10px;
+}
+.boardList .contents .board li{
+    margin-top:8px;
+    font-size:13px;
+    font-weight:200;
+    color:#666;
+    position:relative;
+    display: flow-root;
+}
+.boardList .contents .board li:first-child{
+    margin-top:0;
+}
+.boardList .contents .board li a{
+    font-size:13px;
+    font-weight:300;
+    text-align: left;
+    float:left;
+
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    width:70%;
+
+    padding-left:5px;
+    letter-spacing:-0.5px;
+}
+
+.boardList .contents .banner{
+    /*background: yellow;*/
+    display:flow-root;
+    border-bottom:1px dotted #ddd;
+    margin: 0 10px;
+    padding-bottom:12px;
+    margin-bottom:18px;
+}
+.boardList .contents .banner img{
+    margin-right:10px;
+    float:left;
+}
+.boardList .contents .banner p {
+    float:left;
+    font-size:13px;
+    font-weight:700;
+    line-height:1.3;
+    color:tomato;
+}
+.boardList .contents .board li .dot{
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateX(-50%);
+}
+.bottomList{
+    margin-top:50px;
+    height:34px;
+    /*background: dodgerblue;*/
+}
+
+#footer{
+    margin-top:60px;
+    height:80px;
+    /*background: orange;*/
+}
+#footer .inner{
+    width:970px;
+    height:80px;
+    margin:0 auto;
+    background: yellow;
+    position:relative;
+}
+
+
+#footer .familySite{
+    position:absolute;
+    right:0;
+    bottom:41px;
+    background: #ddd;
+}
+#footer .familySite .menu div{
+    color:white;
+    font-size:14px;
+    font-weight:700;
+    padding: 6px 12px;
+    transition:0.3s;
+}
+#footer .familySite .menu{
+    display:none;
+}
+#footer .familySite:hover .menu{
+    display:block;
+}
+#footer .familySite .menu div:hover{
+    transform:translateX(-10px);
+    background: black;
+    color:white;
+}

@@ -1,0 +1,55 @@
+section{
+    height:100vh;
+    background: #f4f4f4;
+    position:relative;
+}
+
+section .menu{
+    position:absolute;
+    width:600px;
+    padding:50px 0;
+    box-sizing:border-box;
+    background: white;
+    border-radius:20px;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    box-shadow:0 0 20px rgba(0,0,0,0.13);
+}
+section .menu li{
+    position:relative;
+    display:inline-block;
+    margin-right:30px;
+}
+section .menu li:last-child{
+    margin-right:0;
+}
+section .menu li:hover .line{
+    width:100%;
+}
+section .menu li .line1,.line5{
+    position:absolute;
+    left:0;
+    width:0;
+    height:2px;
+    background: black;
+    transition:0.5s;
+}
+section .menu li .line2,.line4{
+    position:absolute;
+    right:0;
+    width:0;
+    height:2px;
+    background: black;
+    transition:0.5s;
+}
+section .menu li .line3{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,0);
+    width:0;
+    height:1px;
+    background: black;
+    transition:0.5s;
+}

@@ -1,0 +1,18 @@
+
+.topMenu li, .sub a{
+    background-color: red;
+    font-weight:bold;
+}
+
+.topMenu a, .yellow {
+    background-color:yellow;
+}
+
+.mainMenu a, .purple2 {
+    background-color: mediumpurple;
+    font-weight: bold;
+}
+
+.purple {
+    background-color: purple;
+}

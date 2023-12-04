@@ -1,0 +1,17 @@
+
+
+ul a {
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+}
+ul .black {
+    background-color: black;
+}
+.mainMenu > li > a {
+    color: yellow;
+    background-color: green;
+}
+.sub li {
+    background-color: mediumvioletred;
+}

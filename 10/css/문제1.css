@@ -1,0 +1,26 @@
+.floatList01{
+    width:660px;
+    background: black;
+    display:flex;
+    justify-content: space-around;
+}
+
+.floatList01 li{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    height:660px;
+    justify-content: space-around;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+.floatList01 li div{
+    height:200px;
+    background: orange;
+}
+
+.floatList01 li .big{
+    height:420px;
+    background: orange;
+}

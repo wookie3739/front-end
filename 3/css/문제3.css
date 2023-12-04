@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.floatBox {
+    width:800px;
+    background-color: #cccccc;
+    display:flow-root;
+}
+
+.floatBox div{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+.float01{
+    background-color: #92c32a;
+}
+.float02, .float07{
+    background-color: #e63b67;
+}
+.float03, .float06{
+    background-color: #1c8fd1;
+}
+.float04, .float05{
+    background-color: #ff7612;
+}
+
+
+
+
+
+
+.position1{
+    margin-left:20px;
+    margin-top:20px;
+    width:200px;
+    height:200px;
+    float:left;
+    background-color: #ffb310;
+}
+
+.position2{
+    margin-left:70px;
+    margin-top:70px;
+    width:200px;
+    height:200px;
+    background-color: #7f7f7f;
+}

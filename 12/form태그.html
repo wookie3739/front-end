@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/form태그.css">
+</head>
+<body>
+
+<h1>form 태그</h1>
+
+<form>
+	<div class="field">
+	<label for="username">username : </label>
+	<input type="text" name="username" id="username">
+	</div>
+	
+	<div class="field">
+		<label for="review">review : </label>
+		<textarea name="review"
+		          cols="30"
+		          rows="10"
+		          id="review"
+		          placeholder="리뷰를 남겨주세요!">
+		</textarea>
+	</div>
+	
+	<div class="field">
+	
+<!--		드롭 다운을 쓸 때 셀렉트와 옵션을 사용한다.-->
+		<label for="petSelect">펫을 선택하세요</label>
+		<select id="petSelect">
+			<option>Please choose an option</option>
+			<option value="dog">DOG</option>
+			<option value="Cat">Cat</option>
+			<option value="Hamster">Hamster</option>
+		</select>
+		
+	</div>
+	
+	
+	
+	
+<!--	form 태그 내부의 버튼 태그의 기본값은 submit 속성이다.-->
+	<button id="btn">클릭</button>
+</form>
+
+
+
+
+
+
+</body>
+</html>
